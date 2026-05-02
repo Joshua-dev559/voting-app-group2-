@@ -10,9 +10,9 @@ function PollList ({options, vote, hasVoted}) {
                 <PollOption 
                     key={option.id}
                     option={option}
-                    totalVotes={totalVotes}
                     vote={vote}
                     hasVoted={hasVoted}
+                    totalVotes={totalVotes}
                 />
             ))}
         </div>
