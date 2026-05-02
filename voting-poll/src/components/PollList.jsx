@@ -11,8 +11,9 @@ function PollList ({options, vote, hasVoted}) {
                     key={option.id}
                     option={option}
                     vote={vote}
-                    hasVoted={hasVoted}
                     totalVotes={totalVotes}
+                    hasVoted={hasVoted}
+                    
                 />
             ))}
         </div>
